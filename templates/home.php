@@ -54,7 +54,8 @@
                     <a href="" class="btn">¡ME INTERESA!</a>
                 </div>
             </div>
-            
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/uva.png" id="uva" alt="Uva">
+
         </div>
     </div>
 </section>

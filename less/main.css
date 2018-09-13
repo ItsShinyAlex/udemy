@@ -261,6 +261,15 @@ h1 {
 #note-principal #note .flex {
   padding-top: 15px;
 }
+#note-principal .btn {
+  padding: 22px 26px;
+}
+#note-principal #uva {
+  position: absolute;
+  z-index: 11;
+  left: 50%;
+  top: 950px !important;
+}
 #forwho {
   background: url(../img/home/hojas-back.png) 85px 80px no-repeat;
   background-size: 50%;
