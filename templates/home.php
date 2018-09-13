@@ -199,13 +199,16 @@
 
 <section id="seven">
     <div class="contain">
-        <h2>
+       <div class="fcentered">
+             <h2>
             <span class="gray">
                 EN TAN SÓLO 
             </span><br>
-            <span class="red it">7 </span><span class="purple">MÓDULOS</span>
+            <span class="red it">7</span><span class="purple">MÓDULOS</span>
             
         </h2>
+       </div>
+      
         
         
         
@@ -234,6 +237,8 @@
                 
                 
             </div>
+            
+            
             <div class="col fcentered">
                 
                 
@@ -247,9 +252,10 @@
                             <!-- back content -->
                             
                             <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
+                                <p>Aprenderás acerca de la evolución de la alimentación, ¿qué es una alimentación real? e identificar a los alimentos por Macronutrientes; mitos de los carbohidratos, mitos de las proteínas y grasas.  
+</p>
                                 
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                                <p> Conoce los alimentos reales más importantes que formarán parte de tus comidas, te darán energía y salud para tu vida.</p>
                             </div>
                         </div>
                     </div>
@@ -270,9 +276,7 @@
                             <!-- back content -->
                             
                             <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
-                                
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                                <p>Infórmate de donde vienen tus alimentos, aprende a leer las etiquetas, ahorra dinero y nutre tu cuerpo. Conocerás a detalle las estrategias que usar la industria para realizar su publicidad, marketing, psicología del color, ¿Qué debo y cómo leer en una etiqueta? ¿Cómo ahorrar dinero al comprar y planear menú para casa?</p>
                             </div>
                         </div>
                     </div>
@@ -295,9 +299,9 @@
                             <!-- back content -->
                             
                             <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
+                                <p>Organización y disciplina, las mejores herramientas para poner en orden tu alimentación y tu cocina.</p>
                                 
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                                <p> No pases hambre, pero tampoco necesitas comer 5 comidas al día, descubre los mitos que rodean a la alimentación.</p>
                             </div>
                         </div>
                     </div>
@@ -320,9 +324,10 @@
                             <!-- back content -->
                             
                             <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
+                                <p>Todo lo que no se mide no se puede mejorar, las calorías son importantes, tanto como la calidad y tus hormonas.
+ </p>
                                 
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                                <p>Como calcular tu gasto energético, como distribuir tus macronutrientes, como establecer cuántas comidas necesitas, cómo saber que contiene cada alimento, cómo elijir los alimentos para alcanzar los objetivos,etc.</p>
                             </div>
                         </div>
                     </div>
@@ -345,9 +350,9 @@
                             <!-- back content -->
                             
                             <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
+                                <p>Combate la ansiedad, no pases hambre, aprende a cocinar, explora la variedad de alimentos reales. </p>
                                 
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                                <p>Comer lo harás toda tu vida, el aprender a cocinar hará que veas a la nutrición, alimentación con otros ojos, aprenderás a desarrollar está habilidad. Recibirás herramientas y material de trabajo para crear variedad de sabores y no aburrirte jamás.</p>
                             </div>
                         </div>
                     </div>
@@ -373,10 +378,8 @@
                         <div class="back">
                             <!-- back content -->
                             
-                            <div class="cardback center">
-                                <p>Aprenderás a conocer tu biotipo, calcular tu % de grasa corporal, como llegar un control más real de tu progreso, sin obsesionarte. Conocerás la bioindividualidad y como identificar, amar y explotar tu biotipo.</p>
-                                
-                                <p>Conócete, enamórate, saca partido y escucha tu tipo de cuerpo, <b>¿Cuáles son tus números y tus alcances?</b></p>
+                            <div class="cardback fcentered center">
+                                <p>No hagas dieta, crea hábitos de alimentación reales y objetivos para mejorar tu salud y calidad de vida, aprende a conocer a tu cuerpo.</p>
                             </div>
                         </div>
                     </div>

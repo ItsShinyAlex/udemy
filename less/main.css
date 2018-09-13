@@ -112,7 +112,7 @@
   text-align: center;
 }
 a {
-  transition: 0.3s;
+  transition: 0.4s;
 }
 .flex {
   display: flex;
@@ -391,6 +391,21 @@ h1 {
 #seven {
   min-height: 1663px;
   background: url(../img/home/invisible-lemmons.png) center no-repeat;
+}
+#seven h2 {
+  line-height: 230%;
+}
+#seven h2 .gray {
+  font-size: 30px;
+  position: relative;
+  right: 40px;
+}
+#seven h2 .it {
+  font-size: 333px;
+  letter-spacing: 50%;
+}
+#seven h2 .purple {
+  font-size: 96px;
 }
 #seven .flex.fcentered {
   flex-direction: row;
