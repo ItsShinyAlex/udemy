@@ -90,9 +90,9 @@
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/video.jpg" id="video" alt="video">
                   </div>
                    
-                   <a href="" class="btn">¡ME INTERESA!</a>
-                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/lap.png" id="lap-sombra" alt="laptop con programa personalizado">
-                   <p class="big purple">¡Aprende a tu ritmo y desde tu casa! </p>
+                   <a href="" class="btn mov-hide">¡ME INTERESA!</a>
+                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/lap.png" id="lap-sombra" class="mov-hide" alt="laptop con programa personalizado">
+                   <p class="big purple mov-hide">¡Aprende a tu ritmo y desde tu casa! </p>
                </div>
                <div class="col">
                    <ul>
@@ -108,7 +108,7 @@
    muscular.</li>
                    </ul>
                    <p class="purple" >Si tienes ganas de cambiar tu estilo de vida, sentirte mejor, vivir el proceso sin padecer y que sea la última vez que empiezas una dieta o plan de alimentación. </p>
-                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/ensalada.png" id="menu-ensalada" alt="menú saludable">
+                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/ensalada.png" id="menu-ensalada" class="mov-hide" alt="menú saludable">
                </div>
            </div>
             
