@@ -108,7 +108,14 @@
    muscular.</li>
                    </ul>
                    <p class="purple" >Si tienes ganas de cambiar tu estilo de vida, sentirte mejor, vivir el proceso sin padecer y que sea la última vez que empiezas una dieta o plan de alimentación. </p>
+                   
+                   <a href="" class="btn des-hide">¡ME INTERESA!</a>
+                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/lap.png" id="lap-sombra" class="des-hide" alt="laptop con programa personalizado">
+                   
+                   <p class="big purple des-hide">¡Aprende a tu ritmo y desde tu casa! </p>
+                   
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/ensalada.png" id="menu-ensalada" class="mov-hide" alt="menú saludable">
+                   
                </div>
            </div>
             
@@ -116,7 +123,8 @@
 </section>
 
 
-<section id="atention">
+    
+    <section id="atention">
     <div class="contain">
         <div class="center">
             <p class="red big">
@@ -155,7 +163,7 @@
             
         </div>
         
-        <div class="flex">
+        <div class="flex mov-hide">
             <div class="col l">
                 <div id="hfood" class="fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/healthy-food.png" alt="Comida saludable"></div>
                 
@@ -193,6 +201,24 @@
                 
             </div>
         </div>
+        <div class="center des-hide">
+             <h3 class="white first">1. Crear tu plan de alimentación </h3>
+                <h3 class="white">2. Usar equivalentes</h3>
+                <h3 class="white seperator">3. Usar macros</h3>
+                
+                 <h3 class="white">4. Usar un menú saludable</h3>
+                <h3 class="white">5. Acabar con los mitos de la alimentación</h3>
+                <h3 class="white seperator">6. Identificar un buen producto</h3>
+                
+            <h3 class="white">7. Crear hábitos saludables </h3>
+                <h3 class="white">8. Comer sano</h3>
+                <h3 class="white last">9. Ahorrar dinero</h3>
+                
+            <div class="fcentered">
+                  <a href="" class="btn">¡ME INTERESA!</a>
+            </div>
+          
+        </div>
     </div>
 </section>
 
@@ -214,7 +240,7 @@
         
         
         
-        <div class="flex fcentered">
+        <div class="flex fcentered scrolling-wrapper-flexbox ">
             <div class="col fcentered">
                 
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -405,7 +431,15 @@
     </div>
 </section>
 
-<section id="expositores">
+<!-- MOVIL VER -->
+
+<!-- MOVIL VER END -->
+
+
+
+
+
+<section id="expositores" class="template-section">
     <div class="contain w60">
         <h2 class="it red">
             Expositores
@@ -417,15 +451,25 @@
         <ul>
             <li>Nutrióloga, Educadora en Diabetes, Especialista en Nutrición Fitness y Coaching Nutricional. </li>
             
+            <div class="des-hide">
+                <li class="">Creadora del concepto Nutrición por tu salud, dueña y creadora de Healthy’s.</li>
+            
+                 <li class="">6 años de experiencia en la consulta privada.</li>
+
+                <li class="">Bloger y Vídeo-Bloger.</li>
+            </div>
+            
+            
+            
         </ul>
         
-        <div class="r-box">
+        <div class="r-box mov-hide">
             <p class="white">
                 Experiencia en el campo laboral:
             </p>
         </div>
         
-        <ul>
+        <ul class="mov-hide">
             <li>
                 Licenciada en Nutrición egresada de la Universidad Latinoamericana Campus Ciencias de la salud, Cuernavaca Morelos.
             </li>
@@ -441,7 +485,7 @@
     </div>
 </section>
 
-<section id="meta">
+<section id="meta" class="template-section mov-hide">
     <div class="contain">
         <div class="flex">
             <div class="col circles">
@@ -501,7 +545,7 @@
 
 
 
-<section id="itsforme">
+<section id="itsforme" class="template-section mov-hide">
     <div class="contain center col">
       <div class="fcentered">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/aprendeacrear.png" alt="Aprende a crear tu dieta ideal">
@@ -568,7 +612,7 @@
     </div>
 </section>
 
-<section id="incluye">
+<section id="incluye" class="template-section ">
     <div class="contain">
        <div class="flex">
            <div id="leaves-lap" class="col">
@@ -620,7 +664,7 @@
     </div>
 </section>
 
-<section id="ventajas">
+<section id="ventajas" class="template-section mov-hide">
     <div class="contain center">
         <h2 class="white">Ventajas de estudiar <b> en línea</b></h2>
         <div class="flex">
