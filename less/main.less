@@ -1,0 +1,773 @@
+
+@import "variables";
+
+///////////////////////////////////////////////////////////////////////effect start write
+
+@import "effects";
+
+
+
+
+///////////////////////////////////////////////////////////////////////effect end
+
+.container{
+    //margin: 0 !important;
+    //padding: 0 !important;
+    max-width: 1500px !important;
+    width: 100% !important;
+}
+.page-title{
+    margin-bottom: 0px !important;
+}
+
+
+
+//#shiny-template{ //CUSTOM STYLE LAYER
+
+.shadow{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+
+a{
+    transition: 0.3s;
+    &:hover{
+        //color: @orange;
+    }
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px;
+        box-sizing: border-box;
+        flex-direction: column;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+.btn{
+    background-color: @red;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 22px 28px;
+    border-radius: 6px;
+     font-family: 'Gotham';
+    &:hover{
+        color: aliceblue;
+        background-color: @purple;
+    }
+}
+
+
+// colors --------------
+.white{
+    color: white;
+    font-weight: 100;
+}
+
+.black{
+    color: black;
+}
+
+.green{
+    color: @green;
+    font-weight: 400;
+}
+
+.purple{
+    color: @purple;
+}
+
+.blue{
+    color: @blue;
+}
+     
+.red{
+    color: @red;
+}
+
+.yellow{
+    color: @yellow;
+}
+
+.gray{
+    color: @gray;
+    //font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Gotham Rounded';
+}
+
+// ---------------------
+//sizes
+
+
+
+.mid{
+    font-size: @mid;
+}
+
+.ideal{
+    font-size: @ideal;
+    font-weight: 100;
+}
+
+.big{
+    font-size: @ftwo;
+}
+
+.it{
+    font-family: 'Freestyle Script';
+    font-weight: 100 !important;
+}
+
+p, li{
+    font-size: @txt;
+
+    font-family: 'Gotham Rounded';
+    
+    b{
+        font-family: 'Gotham';
+        font-weight: 900;
+    }
+}
+
+.contain{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2, h1{
+    font-size: @ftwo; 
+    font-family: 'Gotham';
+}
+
+.learnto{
+   font-family: 'Gotham Rounded';
+    font-size: @ftwo !important; 
+    //font-weight: 400 !important;
+            line-height: 100%;
+
+            .ideal{
+                line-height: 66%;
+            }
+            .mid{
+                line-height: 92%;
+            }
+        .purple{
+            font-family: 'Gotham'
+        }
+        }
+
+    
+    //HOME//
+    #note-principal{
+        height: 950px !important;
+        //width: 1880px;
+        background: url(../img/home/back-banner-home.jpg) center no-repeat;
+        background-size: cover;
+        //background-position: -200px 0px;
+        
+        #note{
+                padding: 25% 44% 0 12%;
+            h1{
+                margin-bottom: 0px;
+                line-height: 100%;
+                
+                .ideal{
+                    line-height: 66%;
+                }
+                .mid{
+                    line-height: 92%;
+                }
+            }
+            p{
+
+                 line-height: 100%;
+                margin-bottom: 15px;
+                &.blue{
+                    font-weight: 400;
+                }
+               
+            }
+            
+            .pad-r{
+                //padding-right: 5px;
+                width: 57%;
+            }
+            .s-col{
+                width: 43%;
+            }
+            
+            .flex{
+                padding-top: 15px; 
+            }
+            
+        }
+    }
+
+#forwho{
+    
+    background: url(../img/home/hojas-back.png) 85px 80px no-repeat;
+    background-size: 50%;
+    
+    .w50{
+        width: 60%;
+    }
+    
+    .col{
+        padding: 0px 20px;
+    }
+    
+    .left{
+         margin-right: 40px;
+    }
+    
+    .gray{
+        font-size: @txt;
+    }
+    
+    ul{
+        margin-bottom: 55px;
+    }
+    
+    li::before {
+          content: "• ";
+          font-weight: 400; 
+          font-size: @txt;
+          color: @red; 
+    }
+    li{
+        color: black;
+            text-indent: -15px;
+        //font-family: 'Gotham Condensed Book';
+        font-family: 'Helvetica';
+        font-weight: 400;
+    }
+    p{
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 116%;
+    }
+    .big{
+        font-size: 44px;
+        
+    }
+    
+    #video{
+        margin-bottom: 20px;
+        width: auto;
+    }
+    
+    .btn{
+        padding: 30px;
+        font-size: @txt;
+    }
+    
+    #lap-sombra{
+        margin-top: 100px;
+        padding-right: 20px;
+    }
+    
+}
+
+#atention{
+    
+    min-height: 2440px;
+    padding-top: 220px;
+     background: url(../img/home/green-back.png) center no-repeat;
+    .big{
+        font-size: 66px;
+        font-family: 'gotham';
+        margin-bottom: 0px;
+    }
+    
+    .w64{
+        width: 64%;
+        p{
+            font-weight: 100;
+            font-family: "Gotham"
+ 
+        }
+    }
+    
+    .y-box{
+        margin-bottom: 30px;
+        width: auto;
+        width: 64%;
+        background-color: @yellow;
+        p{
+            color: black;
+            font-size: 58px;
+            //font-family: 'gotham';
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+    }
+    
+    #line{
+        margin: 30px 0 110px 0;
+    }
+    
+    h2{
+        font-size: @mid;
+        color: white;
+         font-weight: 400;
+        font-family: 'Gotham Rounded';
+        line-height: 250%;
+        .it{
+            font-size: 130px;
+            font-weight: 100;
+        }
+        margin-bottom: 40px;
+    }
+    
+    .col{
+        h3{
+            margin-bottom: 0;
+        }
+        p{
+            line-height: 111%;
+            font-family: "Gotham";
+            font-weight: 100;
+            
+        }
+    }
+    
+    #hfood{
+        margin-bottom: 100px;
+    }
+    #lunch{
+        margin-top: 38%;
+    }
+    #run{
+        margin-top: 14%;
+    }
+    .first{
+        padding-top: 30px;
+    }
+    
+    .l{
+        p,h3{
+            padding-left: 10%;
+            padding-right: 8%;
+        }
+    }
+    .r{
+        padding-right: 20px;
+    }
+    
+    .btn{
+        padding: 38px;
+        font-size: @mid;
+    }
+    
+    
+}
+
+#seven{
+    min-height: 1663px;
+    background: url(../img/home/invisible-lemmons.png) center no-repeat;
+    
+    .flex{
+        &.fcentered{
+            flex-direction: row;
+        }
+    }
+    
+    .col{
+        //width: 33.33%;
+        width: 320px !important;
+        height: 346.2px !important;
+    }
+    
+    .cardback{
+        background: url(../img/home/card.png) center no-repeat;
+        background-size: cover;
+        width: 320px !important;
+        height: 346.2px !important;
+        padding: 40px 30px;
+        p{
+            color: @purple;
+            font-size: 16px;
+            //font-size: 22px;
+            font-weight: 100;
+            //font-family: "Gotham Condensed Book";
+            //font-family: "Gotham";
+            font-family: "Gotham rounded";
+            line-height: 100%;
+            
+            b{
+                font-style: italic;
+            }
+        }
+    }
+}
+
+#expositores{
+    padding-top: 120px;
+    height: 1377px;
+    background: url(../img/home/fer-back.png) center no-repeat;
+    .w60{
+        width: 80%;
+        padding-right: 33%;
+    }
+    .it{
+        font-size: 160px;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 37px;
+        font-weight: 900;
+        line-height: 111%;
+    }
+    
+    ul{
+        margin-bottom: 55px;
+    }
+    
+    li::before {
+          content: "• ";
+          font-weight: 400; 
+          font-size: @txt;
+          color: @red; 
+    }
+    li{
+        color: @purple;
+            text-indent: -15px;
+        //font-family: 'Gotham Condensed Book';
+        font-family: 'Helvetica';
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+    .r-box{
+        position: relative;
+        right: 2%;
+            
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 4px 0;
+        width: 85%;
+        background-color: @red;
+        p{
+            color: white;
+            font-size: 26px;
+            //font-family: 'gotham';
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+#meta{
+    height: 2180px;
+    background: url(../img/home/back-meta-profes.jpg) center no-repeat;
+    background-siz: cover;
+    
+    .flex{
+        max-height: 1111px;
+    }
+    
+    .txt{
+        padding: 55px;
+        .it{
+            font-size: 130px;
+            margin-bottom: 0px;
+        }
+        p{
+            font-size: @mid;
+            line-height: 116%;
+        }
+    }
+    
+    .circles{
+        p{
+            font-size: 16px; 
+        }
+        
+        .o{
+            width: 313px;
+            height: 313px;
+            padding: 0 7%;
+            position: relative;
+        }
+        
+    }
+    
+    #c1{
+        background: url(../img/home/circle-green.png) center no-repeat;
+        
+        left: 50%;
+    }
+    #c2{
+        background: url(../img/home/circle-purple.png) center no-repeat;
+        left: 7.5%;
+        bottom: 15%;
+        z-index: 10;
+    }
+    #c3{
+        background: url(../img/home/circle-red.png) center no-repeat;
+        left: 44%;
+        bottom: 26%;
+        z-index: 9;
+    }
+    #c4{
+        background: url(../img/home/circle-green.png) center no-repeat;
+        left: 15%;
+        bottom: 33%;
+         z-index: 8;
+    }
+    #c5{
+        background: url(../img/home/circle-purple.png) center no-repeat;
+        left: 57%;
+        bottom: 47%;
+         z-index: 7;
+    }
+    
+    #profes{
+        padding-top: 125px;
+        .it{
+            font-size: 90px;
+        }
+        
+        .col{
+            padding: 0 30px;
+            p{
+                padding: 0 82px;
+                font-weight: 400;
+                //font-family: "gotham";
+                line-height: 111%;
+            }
+            h3{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+#itsforme{
+    
+    padding-top: 100px;
+    h2{
+        margin: 30px 0 80px 0;
+    }
+    
+    .col{
+        padding: 0 30px;
+    
+    }
+    
+    ul{
+        text-align: justify;
+    }
+    
+    li::before {
+          font-weight: 400; 
+          font-size: 10px;
+        margin: 0 8px 0 0;
+        position: relative;
+        top: 7px;
+
+    }
+    li{
+        color: @purple;
+            text-indent: -39px;
+        margin-left: 40px;
+        //font-family: 'Gotham Condensed Book';
+        font-family: 'Gotham Rounded';
+        font-weight: 400;
+        padding-bottom: 20px;
+        font-size: 20px;
+        
+    }
+    
+    .box{
+        p{
+            font-size: @mid;
+                text-align: center;
+        }
+    }
+    
+    
+    #foryou{
+        
+        li::before {
+          content: url(../img/home/002-checked.png);
+        }
+        
+        .box{
+            background-color: @green;
+            border-radius: 8px;
+        }
+    }
+    #notforyou{
+        
+        
+        li::before {
+          content: url(../img/home/001-cancel.png);
+        }
+        
+        .box{
+            background-color: @red;
+            border-radius: 8px;
+        }
+        
+    }
+}
+
+#incluye{
+    padding-top: 200px;
+    background: url(../img/home/green-back-leaves.png) center no-repeat;
+    background-size: cover;
+    min-height: 1100px;
+    
+    h2{
+      font-size: @txt;
+        font-family: "gotham rounded";
+        margin-bottom: 0;
+    }
+    
+    #leaves-lap{
+        margin-top: 7%;
+    }
+    
+     li::before {
+          content: "• ";
+          font-weight: 400; 
+          font-size: 20px;
+          color: @red; 
+    }
+    li{
+        font-size: 20px;
+        color: white;
+            text-indent: -15px;
+        //font-family: 'Gotham Condensed Book';
+        font-family: 'gotham';
+        font-weight: 100;
+        padding-bottom: 0px;
+    }
+}
+
+#ventajas{
+    background-color: @red;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    h2{
+        font-family: "gotham rounded";
+        font-weight: 400;
+        b{
+            font-family: "gotham";
+        }
+        padding: 0 32%;
+    }
+    
+    p{
+        font-family: 'gotham';
+        padding: 10px 22%;
+        color: white;
+        font-weight: 100;
+        b{
+            font-weight: 600;
+            font-family: 'gotham rounded'
+        }
+    }
+    
+    .fcentered{
+        //flex-direction: row;
+    }
+    
+    .pad-h{
+        padding: 0 15%;
+    }
+    
+    .col{
+        margin: 20px 0%;
+        img{
+            width: 111px;
+        }
+        width: 50%;
+    }
+    
+    .rd{
+        width: 25%;
+        margin: 20px 4%;
+        p{
+            padding: 10px 13%;
+        }
+    }
+    
+    .btn{
+        font-size: 24px;
+        background-color: @green;
+        padding: 30px 20px;
+        &:hover{
+            background-color: @purple;
+            color: aliceblue;
+        }
+    }
+}
+
+#udemy{
+    background: url(../img/home/last-section-girl-tree.jpg) center no-repeat;
+    min-height: 890px;
+    .col-type{
+        padding: 10px 60% 40px 10%;
+        //display: flex;
+        //flex-direction: column;
+    }
+    .pad-bot{
+        margin-bottom: 50px;
+    }
+    .pad-top{
+        margin-top: 220px;
+    }
+    
+    .btn{
+        font-size: @txt;
+        &:hover{
+            background-color: @green;
+            color: snow;
+        }
+    }
+}
+
+
+
+@import "responsive";
+
+//} 
