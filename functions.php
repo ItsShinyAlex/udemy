@@ -1,6 +1,13 @@
 <?php
-
+require_once get_stylesheet_directory() . "/class.wp-auto-theme-update.php";
 add_action( 'wp_enqueue_scripts', 'woodmart_child_enqueue_styles', 1000 );
+
+function theme_js() {
+    wp_enqueue_script( 'scrollreveal', get_stylesheet_directory_uri() . '/js/scrollreveal.min.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_script( 'main_js', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0', true );
+}
+
+add_action('wp_enqueue_scripts', 'theme_js');
 
 function woodmart_child_enqueue_styles() {
 	$version = woodmart_get_theme_info( 'Version' );

@@ -10,7 +10,7 @@
 
 
 
-<section id="note-principal">
+<section id="note-principal" class="template-section">
     <div class="contain">
          
          
@@ -247,7 +247,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m1.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m1.png" alt="Módulo 1: Conociendo a mi cuerpo">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -273,7 +273,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m2.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m2.png" alt="Módulo 2: Acercamiento a la alimentación natural">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -297,7 +297,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m3.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m3.png" alt="Módulo 3: Aprende el arte de leer etiquetas nutrimentales">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -320,7 +320,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m4.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m4.png" alt="Módulo 4: Renueva tu cocina; desintoxica tu despensa y refrigerador.">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -345,7 +345,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m5.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m5.png" alt="Módulo 5: Plan de alimentación personalizado">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -371,7 +371,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m6.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m6.png" alt="Módulo 6: Versatilidad de la dieta y herramientas de apoyo">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -400,7 +400,7 @@
                     <div class="flipper">
                         <div class="front">
                             <!-- front content -->
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m7.png" alt="carta informativa">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/m7.png" alt="Módulo 7: Hábitos de cambiarán tu vida">
                         </div>
                         <div class="back">
                             <!-- back content -->
@@ -615,7 +615,7 @@
 <section id="incluye" class="template-section ">
     <div class="contain">
        <div class="flex">
-           <div id="leaves-lap" class="col">
+           <div id="leaves-lap" class="col mov-hide">
                <div class="fcentered">
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/lap-menu-shadow.png" alt="Plan personalizado para ti">
                </div>
@@ -639,6 +639,8 @@
                     </span>
                 </p>
                 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-responsive/lap-leaves-menu.png" class="des-hide" alt="laptop con programa saludable y menú saludable">
+                
                 <ul>
                     <li>X número de horas de video bajo demanda
                       Acceso en dispositivos móviles y TV.</li>
@@ -658,13 +660,41 @@
                     <li>El curso incluye <b>actualizaciones gratis</b> para 
                           toda la vida.</li>
                     <li>Serás para del <b>grupo privado.</b></li>
+                    <div class="des-hide">
+                        <a href="" class="btn">¡EMPEZAR A APRENDER!</a>
+                    </div>
                 </ul>
            </div>
        </div> 
     </div>
 </section>
 
-<section id="ventajas" class="template-section mov-hide">
+  
+        <section id="profes" class="des-hide">
+           
+            <div class="center">
+                <h2 class="it green">Otros Profesores</h2>
+                <div class="flex">
+                    <div class="col center fcentered">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/karla.png" alt="more veggies, Karla Hurtado">
+                        <h3 class="it white">Karla Hurtado</h3>
+                        <p class="white">Health Coach en cambio de hábitos
+                         y diseñadora gráfica</p>
+                    </div>
+                    <div class="col center fcentered">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/ricardo.png" alt="Ricardo Hurtado">
+                        <h3 class="it white">Ricardo Hurtado</h3>
+                        <p class="white">
+
+                            Médico Cirujano con Especialidad
+                            en Obesidad
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="ventajas" class="template-section">
     <div class="contain center">
         <h2 class="white">Ventajas de estudiar <b> en línea</b></h2>
         <div class="flex">
